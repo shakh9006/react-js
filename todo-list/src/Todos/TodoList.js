@@ -4,6 +4,8 @@ import TodoItem from './TodoItem'
 
 const styles = {
     ul: {
+        margin   : 0,
+        padding  : 0,
         listStyle: 'none'
     }
 }
@@ -13,7 +15,7 @@ function TodoList(props) {
         <ul style={styles.ul}>
             {
                 props.todos.map( (todo, index) => {
-                    return <TodoItem todo={todo} index={index} key={todo.id} />
+                    return <TodoItem todo={todo} index={index} key={todo.id} toggleTodo={props.toggleTodo} />
                 })
             }
         </ul>
@@ -22,7 +24,7 @@ function TodoList(props) {
 
 
 TodoList.propTypes = {
-    todos: PropTypes.arrayOf(PropTypes.object).isRequired
+    todos     : PropTypes.arrayOf(PropTypes.object).isRequired,
 }
 
 export default TodoList
