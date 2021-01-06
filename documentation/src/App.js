@@ -1,4 +1,5 @@
 import React from 'react'
+// ==== Main ====
 // import Jsx from "./docs/jsx";
 // import Welcome from "./docs/Components";
 // import State from "./docs/State";
@@ -7,6 +8,9 @@ import React from 'react'
 // import Lists from './Main/ListsAndKeys'
 // import NameForm from './Main/Forms'
 // import StateUp from './Main/StateUp'
+
+// ==== Advanced ====
+// import Accessibility from './components/Advanced/Accessibility'
 
 export default function MyApp() {
     return (
