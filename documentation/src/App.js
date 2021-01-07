@@ -11,12 +11,11 @@ import React from 'react'
 
 // ==== Advanced ====
 // import Accessibility from './components/Advanced/Accessibility'
-import CodeSplitting from "./components/Advanced/CodeSplitting";
+// import CodeSplitting from "./components/Advanced/CodeSplitting";
 
 export default function MyApp() {
     return (
       <div>
-          <CodeSplitting />
       </div>
     )
 }
