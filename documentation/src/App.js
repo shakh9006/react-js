@@ -12,10 +12,11 @@ import React from 'react'
 // ==== Advanced ====
 // import Accessibility from './components/Advanced/Accessibility'
 // import CodeSplitting from "./components/Advanced/CodeSplitting";
+// import Jsx from './components/Advanced/Jsx'
 
 export default function MyApp() {
     return (
-      <div>
-      </div>
+        <>
+        </>
     )
 }
