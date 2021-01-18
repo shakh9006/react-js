@@ -13,10 +13,12 @@ import React from 'react'
 // import Accessibility from './components/Advanced/Accessibility'
 // import CodeSplitting from "./components/Advanced/CodeSplitting";
 // import Jsx from './components/Advanced/Jsx'
+import Portals from './components/Advanced/Portals'
 
 export default function MyApp() {
     return (
         <>
+            <Portals />
         </>
     )
 }

@@ -1,4 +1,10 @@
+intro/
 intro/node_modules/
+todo-list/
+quiz-app/
+quiz-app/node_modules/
+birthday-project/
+birthday-project/node_modules/
 todo-list/node_modules/
 documentation/node_modules/
 .idea/
