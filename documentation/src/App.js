@@ -14,12 +14,13 @@ import React from 'react'
 // import CodeSplitting from './components/Advanced/CodeSplitting'
 // import Jsx from './components/Advanced/Jsx'
 // import Portals from './components/Advanced/Portals'
-import WithoutJsx from "./components/Advanced/WithoutJsx";
+// import WithoutJsx from "./components/Advanced/WithoutJsx"
+import MouseTracker from "./components/Advanced/RenderProps"
 
 export default function MyApp() {
     return (
         <>
-            <WithoutJsx name='John Doe'/>
+            <MouseTracker />
         </>
     )
 }
